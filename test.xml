@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<gsa-template>
+	<import-items>
+
+        <add-item item-descriptor="rgb" id="100020">
+          <set-property name="colorName"><![CDATA[Black-Silver]]></set-property>
+        </add-item>
+
+       <add-item item-descriptor="variationOption" id="VO100013">
+		  <set-property name="descriptionDefault">1111</set-property>
+		  <set-property name="variationType"><![CDATA[200001]]></set-property>
+		  <set-property name="displayNameDefault"><![CDATA[108661]]></set-property>
+		  <!-- rdonly  derived   <set-property name="description"><![CDATA[<li>Thin and lightweight polycarbonate material</li>
+		    <li>Transitions Signature Adaptable Lens Technology</li>
+		    <li>Impact resistant</li>
+		    <li>Built in UV Protection</li>
+		    <li>Ideal for stronger prescriptions</li>
+		    <li>Includes our easy to clean ClearShield non-glare coating!</li>]]></set-property>  -->
+		  
+		</add-item>
+		
+			<add-item item-descriptor="flex-sku" id="sku120016">
+			      <!-- rdonly  derived   <set-property name="description"><![CDATA[<li>Standard plastic material</li>
+			    <li>Standard non-glare coating</li>
+			    <li>Scratch resistant coating</li>]]></set-property>  -->
+			      <!-- rdonly   <set-property name="parentProducts"><![CDATA[prod80001]]></set-property>  -->
+			      <set-property name="bundleLinks"><![CDATA[skul40003,skul40002]]></set-property>
+			      <set-property name="saleable"><![CDATA[true]]></set-property>
+			      <!-- rdonly  derived   <set-property name="displayName"><![CDATA[Standard+ Silver Package]]></set-property>  -->
+			      <set-property name="descriptionDefault"><![CDATA[<li>Standard plastic material</li>
+			    <li>Standard non-glare coating</li>
+			    <li>Scratch resistant coating</li>]]></set-property>
+			      <set-property name="legacyId"><![CDATA[108556]]></set-property>
+			      <!-- rdonly  derived   <set-property name="derivedCatalogs"><![CDATA[masterCatalog]]></set-property>  -->
+			      <!-- export is false   <set-property name="version"><![CDATA[16]]></set-property>  -->
+			      <set-property name="variationOptions"><![CDATA[400019,200005,200007,600024]]></set-property>
+			      <set-property name="creationDate"><![CDATA[8/13/2015 17:16:37]]></set-property>
+			      <set-property name="siteIds"><![CDATA[storeSiteUS]]></set-property>
+			      <!-- rdonly   <set-property name="replacementProducts"><![CDATA[__NULL__]]></set-property>  -->
+			      <set-property name="displayNameDefault"><![CDATA[Standard+ Silver Package]]></set-property>
+			      <set-property name="type"><![CDATA[flex-sku]]></set-property>
+			      <set-property name="lensPackageStyle"><![CDATA[<h6><strong class="text-primary text-uppercase">Classic</strong></h6>
+			    <h6 style="font-size: 16px;font-weight: 500;height: 35px">Standard+ Silver Package</h6>]]></set-property>
+			    </add-item>
+		
+	
+
+      </import-items>
+    </gsa-template>
