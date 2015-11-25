@@ -7,13 +7,14 @@ public class AddItem {
 	private String id;
 	
 	private List<PropertyItem> propertyItems;
-	private String comment;
+	private List<String> comment;
 	
 	
-	public String getComment() {
+
+	public List<String> getComment() {
 		return comment;
 	}
-	public void setComment(String comment) {
+	public void setComment(List<String> comment) {
 		this.comment = comment;
 	}
 	public List<PropertyItem> getPropertyItems() {

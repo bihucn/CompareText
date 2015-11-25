@@ -2,10 +2,7 @@
 
 <gsa-template>
 	<import-items>
-
-        <add-item item-descriptor="rgb" id="100020">
-          <set-property name="colorName"><![CDATA[Black-Silver]]></set-property>
-        </add-item>
+        
 
        <add-item item-descriptor="variationOption" id="VO100013">
 		  <set-property name="descriptionDefault">1111</set-property>
@@ -17,7 +14,6 @@
 		    <li>Built in UV Protection</li>
 		    <li>Ideal for stronger prescriptions</li>
 		    <li>Includes our easy to clean ClearShield non-glare coating!</li>]]></set-property>  -->
-		  
 		</add-item>
 		
 			<add-item item-descriptor="flex-sku" id="sku120016">
@@ -43,7 +39,7 @@
 			      <set-property name="lensPackageStyle"><![CDATA[<h6><strong class="text-primary text-uppercase">Classic</strong></h6>
 			    <h6 style="font-size: 16px;font-weight: 500;height: 35px">Standard+ Silver Package</h6>]]></set-property>
 			    </add-item>
-		
+
 	
 
       </import-items>
