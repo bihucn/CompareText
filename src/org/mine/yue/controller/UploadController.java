@@ -26,7 +26,7 @@ public class UploadController {
 			e.printStackTrace();
 			
 		}
-		lists = AnalysisXMLUtils.AnalysisXML();
+		lists = AnalysisXMLUtils.AnalysisXML("");
 		
 		ModelAndView mv = new ModelAndView("succ");
 		mv.addObject("lists", lists);

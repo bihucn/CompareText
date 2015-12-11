@@ -16,7 +16,7 @@ import org.mine.yue.domain.PropertyItem;
 public class AnalysisXMLUtils {
 
 	@SuppressWarnings({ "unchecked", "static-access" })
-	public static List<AddItem> AnalysisXML(){
+	public static List<AddItem> AnalysisXML(String path){
 		List<AddItem> addItemList = new ArrayList<>();
 		
 		
@@ -24,7 +24,7 @@ public class AnalysisXMLUtils {
 		FileInputStream inputStream = null;
 		Document doc = null;
 		try {
-			inputStream = new FileInputStream("F:/test.xml");
+			inputStream = new FileInputStream(path);
 			doc = new SAXReader().read(inputStream);
 			Element root = doc.getRootElement();
 			
@@ -36,7 +36,6 @@ public class AnalysisXMLUtils {
 				System.out.println("no items");
 				return null;
 			}
-			
 			
 			for (int i = 0; i < addList.size(); i++) {
 				
